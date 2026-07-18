@@ -29,7 +29,20 @@
 <body>
   <a class="skip" href="#main">Skip to content</a>
 
-  <div class="atmosphere" aria-hidden="true"></div>
+  <div class="hero" aria-hidden="true">
+    <picture>
+      <source media="(max-width: 720px)" srcset="social/square.jpg" />
+      <img
+        class="hero-art"
+        src="social/hero.jpg"
+        alt=""
+        width="1600"
+        height="840"
+        fetchpriority="high"
+      />
+    </picture>
+    <div class="hero-fade"></div>
+  </div>
 
   <main id="main" class="stage">
     <p class="brand">Meanwhile Companion</p>
@@ -50,6 +63,12 @@
     <p class="note" id="soon">
       The iOS app is in TestFlight while we finish. Write to us if you would like to try it.
     </p>
+
+    <nav class="social" aria-label="Elsewhere">
+      <a href="https://www.instagram.com/meanwhilecompanion/" rel="noopener noreferrer" target="_blank">Instagram</a>
+      <span class="sep" aria-hidden="true">·</span>
+      <a href="https://www.linkedin.com/company/meanwhile-companion" rel="noopener noreferrer" target="_blank">LinkedIn</a>
+    </nav>
   </main>
 
   <footer class="foot">

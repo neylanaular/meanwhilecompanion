@@ -1,13 +1,13 @@
 # meanwhilecompanion.com
 
-Public site for Meanwhile Companion: landing page, privacy note, and (later) App Store link.
+Public site for Meanwhile Companion: landing page, privacy note, and App Store link.
 
 ## What’s here
 
 - `index.html` — one quiet landing composition
 - `privacy.html` — privacy note (canonical for the app)
 - Contact: [hello@meanwhilecompanion.com](mailto:hello@meanwhilecompanion.com)
-- App Store CTA is a “soon” placeholder until the listing is live
+- App Store: [apps.apple.com/app/id6791992091](https://apps.apple.com/app/id6791992091)
 
 ## Email (GoDaddy)
 
